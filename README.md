@@ -21,8 +21,8 @@ In Bearbeitung...
 Klone das Repository
 ```bash
 # Repository klonen
-git clone [DEIN-REPO-LINK]
-cd [REPO-NAME]
+git clone https://github.com/mmlau/Can-I-eat-it
+cd Can-I-eat-it
 ```
 
 Installiere [uv](https://uv.dev) (falls noch nicht installiert) und synchronisiere die Abhängigkeiten
