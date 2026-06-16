@@ -38,6 +38,7 @@ Notebooks in dieser Reihenfolge ausführen:
 0. *Optional:* notebooks/0_data_evaluation.ipynb
 1. notebooks/1_data_preparation.ipynb
 2. notebooks/2_model_selection.ipynb
+3. notebooks/3_interpret_decision_tree
 <!--
 2. notebooks/02_preprocessing.ipynb
 3. notebooks/03_modeling.ipynb
