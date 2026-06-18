@@ -1,6 +1,6 @@
 # Can I eat it? 🍄
 
-Entwicklung eines datengestützten Klassifikationsmodells auf Basis des UCI-Mushroom-Benchmarks, das rein kategoriale biologische Merkmale über gezielte Encoding-Verfahren verarbeitet. Das primäre Optimierungsziel liegt in der vollständigen Eliminierung falsch-negativer Vorhersagen (100 % Recall), um eine fehlerfreie Trennung zwischen essbaren und giftigen Proben zu garantieren.
+Entwicklung eines datengestützten Klassifikationsmodells auf Basis des UCI-Mushroom-Benchmarks, das rein kategoriale biologische Merkmale über gezielte Encoding-Verfahren verarbeitet. Das primäre Optimierungsziel liegt in der vollständigen Eliminierung falsch-negativer Vorhersagen (100 % Recall), um eine fehlerfreie Trennung zwischen essbaren und giftigen Proben zu garantieren. Des Weiteren wurden Fragen erstellt mit dessen Hilfe einer der hypothetischen Pilze als giftig oder essbar eingestuft werden kann.
 
 ## 📊 Projektübersicht
 
@@ -13,8 +13,10 @@ Entwicklung und Validierung eines datengestützten Klassifikationsmodells zur Tr
 *Hinweis: Da die Daten hypothetisch generiert wurden, dient dieses Projekt ausschließlich als Data-Science-Benchmark und ist nicht als Ratgeber für die reale Pilzbestimmung geeignet.*
 
 **Methoden:** 
-In Bearbeitung...
-<!-- Welche Techniken/Algorithmen verwendest du? -->
+* Logistic Regression
+* Decision Tree Classifier
+* CatBoost
+* Neural Network
 
 ## Setup
 
@@ -39,10 +41,4 @@ Notebooks in dieser Reihenfolge ausführen:
 1. notebooks/1_data_preparation.ipynb
 2. notebooks/2_model_selection.ipynb
 3. notebooks/3_interpret_decision_tree
-<!--
-2. notebooks/02_preprocessing.ipynb
-3. notebooks/03_modeling.ipynb
-4. notebooks/04_results.ipynb
--->
-
 
